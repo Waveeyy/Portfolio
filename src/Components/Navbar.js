@@ -26,7 +26,7 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
+            {/* <div className="collapse navbar-collapse" id="navbarNav">
               <ul
                 className="navbar-nav nav-sections tabss ml-auto"
                 style={{ marginRight: "20rem" }}
@@ -47,7 +47,7 @@ function Navbar() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </nav>
         </div>
       </div>
