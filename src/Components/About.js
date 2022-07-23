@@ -5,7 +5,7 @@ function About() {
     <div>
       <div className="container" id="aboutt">
         <div className="row mt-5 about">
-          <div className="col-md-6 mt-5">
+          <div className="col-md-4 mt-5">
             <h1>
               HI! MY NAME IS <br />
               DANIEL AKA WAVEY, <br />
@@ -36,13 +36,39 @@ function About() {
               </button>
             </a>
           </div>
-          <div className="col-md-6 mt-5">
+          <div className="col-md-4 mt-5">
             <img
               src="/Images/photo_2022-05-16_20-37-58.jpg"
               alt=""
               className="img-fluid mb-5"
               style={{ height: "400px", width: "350px", borderRadius: "2%" }}
             />
+          </div>
+          <div className="col-md-4 mt-5">
+            <h1>Skills</h1>
+            <ul className="ml-auto" style={{ marginRight: "20rem" }}>
+              <li>
+                <h3>React</h3>
+              </li>
+              <li>
+                <h3>JavaScript</h3>
+              </li>
+              <li>
+                <h3>Bootstrap</h3>
+              </li>
+              <li>
+                <h3>CSS</h3>
+              </li>
+              <li>
+                <h3>HTML</h3>
+              </li>
+              <li>
+                <h3>Github</h3>
+              </li>
+              <li>
+                <h3>Redux</h3>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
