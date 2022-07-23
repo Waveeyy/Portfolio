@@ -1,0 +1,60 @@
+/* body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Space Mono", monospace;
+  font-family: "Zen Maru Gothic", sans-serif;
+} */
+
+.fullPage {
+  min-height: 100vh;
+  color: #6283aa;
+  background-image: linear-gradient(to bottom left, #6283aa, #cfe1eb, white);
+  background-repeat: no-repeat;
+}
+
+.about {
+  margin-left: -12rem;
+}
+
+@media screen and (max-width: 1534px) {
+  .about {
+    margin-left: 0rem;
+  }
+}
+
+.contactss {
+  color: #6283aa;
+  border: solid 1px #6283aa;
+}
+
+.contactss:hover {
+  background-color: #6283aa;
+  color: white;
+}
+.navTopics {
+  color: #6283aa;
+}
+
+.navTopics:hover {
+  color: white;
+}
+
+.projectss {
+  transition: 0.8s all ease;
+  height: 300px;
+  width: 350px;
+}
+.projectss:hover {
+  transform: scale(1.05);
+  transition: 0.8s all ease;
+}
+
+.headng-footer {
+  font-weight: 900;
+  color: rgb(12, 55, 90);
+}
+
+.ind-footer {
+  color: "#24528b";
+  font-weight: 900;
+  font-size: larger;
+}
