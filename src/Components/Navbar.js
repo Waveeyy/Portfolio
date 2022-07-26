@@ -3,30 +3,28 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <div className="container-fluid" style={{ border: "none" }}>
-        <div className="row">
-          <nav
-            className="navbar fixed-top navbar-expand-lg navigation navbar-light w-100"
-            style={{ backgroundColor: "#cfe1eb" }}
-          >
-            <a className="navbar-brand" href="/index.html">
-              <h1 style={{ marginLeft: "12rem" }} className="navTopics">
-                Wavey
-              </h1>
-              <span className="sr-only">(current)</span>
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            {/* <div className="collapse navbar-collapse" id="navbarNav">
+      <nav
+        className="navbar fixed-top navbar-expand-lg navigation navbar-light w-100"
+        style={{ backgroundColor: "#cfe1eb" }}
+      >
+        {/* <div className="container" style={{ border: "none" }}>
+          <div className="row"> */}
+        <a className="navbar-brand wavey" href="/index.html">
+          <h1 className="navTopics">Wavey</h1>
+          <span className="sr-only">(current)</span>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        {/* <div className="collapse navbar-collapse" id="navbarNav">
               <ul
                 className="navbar-nav nav-sections tabss ml-auto"
                 style={{ marginRight: "20rem" }}
@@ -48,9 +46,9 @@ function Navbar() {
                 </li>
               </ul>
             </div> */}
-          </nav>
-        </div>
-      </div>
+        {/* </div>
+        </div> */}
+      </nav>
     </div>
   );
 }

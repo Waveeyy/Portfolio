@@ -58,3 +58,9 @@
   font-weight: 900;
   font-size: larger;
 }
+
+/* @media screen and (max-width: 375px) {
+  .wavey {
+    margin-left: 0rem;
+  }
+} */

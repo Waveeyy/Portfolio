@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <div className="container" id="aboutt">
-        <div className="row mt-5 about">
+        <div className="row mx-auto mt-5 about">
           <div className="col-md-4 mt-5">
             <h1>
               HI! MY NAME IS <br />
