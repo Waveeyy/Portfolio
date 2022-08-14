@@ -70,7 +70,7 @@ function Projects() {
             </p>
           </div>
           <div className="col-md-6">
-            <a href="https://calendly-clonewavey.netlify.app/" target="_blank">
+            <a href="https://wavetreactcalendly.netlify.app/" target="_blank">
               <img
                 className="img-fluid shadow-lg projectss mr-2"
                 style={{ borderRadius: "4%" }}
@@ -83,7 +83,7 @@ function Projects() {
             </h2>
             <p style={{ color: "#6c7177", fontSize: "large" }} className="mr-2">
               This is a clone of the front-end interface of the Calendly
-              website. I designed this as a mini-project to practice HTML, CSS
+              website. I designed this as a mini-project to practice React, CSS
               and Bootstrap.
             </p>
           </div>
