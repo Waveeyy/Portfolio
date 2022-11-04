@@ -9,6 +9,25 @@ function Projects() {
             <h1 className="text-center mt-5 mb-5">PROJECTS</h1>
           </div>
           <div className="col-md-6">
+            <a href="https://lomokie.com/" target="_blank">
+              <img
+                className="img-fluid shadow-lg projectss ml-2"
+                style={{ borderRadius: "4%" }}
+                src="/Images/lomokie.png"
+                alt=""
+              />
+            </a>
+            <h2 className="mt-4 ml-2" style={{ color: "#24528b" }}>
+            E-commerce Website
+            </h2>
+            <p style={{ color: "#6c7177", fontSize: "large" }} className="ml-2">
+            This is a fullstack e-commerce project I built for a client, 
+            complete with an admin dashboard for managing inventory and tracking orders and other activities on the website. 
+            I also integrated Paystack into the website to manage customer payments.
+            I used React, JavaScript, Redux, CSS and finally Firebase for managing the database and initiating authentication.
+            </p>
+          </div>
+          <div className="col-md-6">
             <a href="https://reactuserwavey.netlify.app/" target="_blank">
               <img
                 className="img-fluid shadow-lg projectss ml-2"
@@ -105,24 +124,7 @@ function Projects() {
               designed it using Bootstrap, it is responsive to screen size.
             </p>
           </div>
-          <div className="col-md-6">
-            <a href="https://pizzamaniawavey.netlify.app/" target="_blank">
-              <img
-                className="img-fluid shadow-lg projectss ml-2"
-                style={{ borderRadius: "4%" }}
-                src="/Images/Pizzamania.png"
-                alt=""
-              />
-            </a>
-            <h2 className="mt-4 ml-2" style={{ color: "#24528b" }}>
-              Pizza Website
-            </h2>
-            <p style={{ color: "#6c7177", fontSize: "large" }} className="ml-2">
-              This is my attempt at designing the front-end of a pizza store
-              website using Bootstrap and CSS. It is responsive to screen size
-              but not interactive (yet).
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>
